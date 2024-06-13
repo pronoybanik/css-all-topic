@@ -1,0 +1,54 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0;
+  margin-left: 0;
+}
+#main_menu ul {
+  margin-top: 0;
+  margin-left: 0;
+  list-style: none;
+  text-align: center;
+  background: #4834d4;
+  position: relative;
+}
+
+#main_menu li {
+  display: inline-block;
+}
+#main_menu li a {
+  display: block;
+  padding: 15px 20px;
+  color: aliceblue;
+  text-decoration: none;
+}
+#main_menu li a:hover {
+  background-color: #686de0;
+  cursor: pointer;
+}
+
+/* Drop Down Menu */
+#main_menu ul ul{
+position: absolute;
+top: 48px;
+width: 200px;
+background: #686de0;
+display: none;
+}
+
+#main_menu ul ul li{
+display: block;
+}
+#main_menu ul li:hover a{
+display: #4834d4;
+}
+#main_menu ul li:hover li a{
+display: #4834d4;
+}
+#main_menu ul ul li a:hover{
+background: #000;
+}
+
+#main_menu ul li:hover ul {
+display: block;
+}
+

@@ -1,0 +1,15 @@
+p {
+  width: 200px;
+  height: 100px;
+  background: greenyellow;
+  align-items: center;
+  font-size: 20px;
+  border: 6px solid black;
+  transition: 1s;
+  transition-timing-function: ease-out;
+}
+
+p:hover{
+    width: 400px;
+    height: 200px;
+}
